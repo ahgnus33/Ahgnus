@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Ahgnus페이지</title>
+    <style>
+      .mytitle {
+        color: white;
+        text-align: center;
+        background-image: url("ahgnus.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+
+        /* display flex를 쓸 때엔 아래 네 줄이 항상 묶여 다닙니다. */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .wrap {
+        width: 500px;
+        margin: 50px auto 0 auto;
+      }
+       
+      .mybtn {
+        color: white;
+        background-position: center;
+        background-color: blue;
+        border-radius: 10px;
+        margin: 0 120px 0 120px;
+    
+      }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+      <div class="mytitle">
+      </div>
+       <div>
+           <span style="font-size: 28px">투수를팝니다</span>가격3000원/명
+            <div>이투수는사실특별한 힘을 가지고 있어요.</div>
+      </div>
+
+      <form>
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        
+      </form>
+      <button class="mybtn">주문하기</button>
+    </div>
+</body>
+</html>
